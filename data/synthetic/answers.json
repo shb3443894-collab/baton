@@ -1,0 +1,97 @@
+[
+  {
+    "id": "coupon",
+    "question": "첫 구매 쿠폰은 왜 없앴어?",
+    "conclusion": "다계정 중복 발급을 막는 비용이 효과보다 커서 2025년 4월 15일부로 폐지",
+    "rejected": "휴대폰 인증 조건부 유지 (개발 공수 약 3주)",
+    "decision_message_ids": [
+      "coupon-t2-2"
+    ],
+    "message_ids": [
+      "coupon-t1-1",
+      "coupon-t1-2",
+      "coupon-t1-3",
+      "coupon-t1-4",
+      "coupon-t2-1",
+      "coupon-t2-2"
+    ]
+  },
+  {
+    "id": "shipping",
+    "question": "무료배송 기준이 3만 원이 된 이유는?",
+    "conclusion": "택배비 인상으로 객단가를 높이기 위해 2024년 9월부터 2만 원에서 3만 원으로 상향",
+    "rejected": "2만 5천 원 단계 인상 (손익 개선 폭이 작음)",
+    "decision_message_ids": [
+      "shipping-t1-5"
+    ],
+    "message_ids": [
+      "shipping-t1-1",
+      "shipping-t1-2",
+      "shipping-t1-3",
+      "shipping-t1-4",
+      "shipping-t1-5"
+    ]
+  },
+  {
+    "id": "grade",
+    "question": "회원 등급 개편 때 기각된 안은?",
+    "conclusion": "3단계 등급과 연 단위 산정을 확정",
+    "rejected": "구매 횟수 기준 5단계 등급 (시스템 수정 범위가 크고 고객이 이해하기 어려움)",
+    "decision_message_ids": [
+      "grade-t1-5"
+    ],
+    "message_ids": [
+      "grade-t1-1",
+      "grade-t1-2",
+      "grade-t1-3",
+      "grade-t1-4",
+      "grade-t1-5"
+    ]
+  },
+  {
+    "id": "pg",
+    "question": "결제대행사는 왜 바꿨어?",
+    "conclusion": "결제 장애 반복과 높은 수수료 때문에 2025년 2월 B사로 교체",
+    "rejected": "A사 유지 및 수수료 재협상 (장애 재발 방지 약속을 받지 못함)",
+    "decision_message_ids": [
+      "pg-t1-5"
+    ],
+    "message_ids": [
+      "pg-t1-1",
+      "pg-t1-2",
+      "pg-t1-3",
+      "pg-t1-4",
+      "pg-t1-5"
+    ]
+  },
+  {
+    "id": "push",
+    "question": "밤에 앱 푸시를 왜 안 보내?",
+    "conclusion": "법무 검토와 수신 거부 증가로 2025년 7월부터 오후 9시~오전 8시 발송 중단",
+    "rejected": "야간 수신 동의 고객에게만 발송 (동의 관리 공수 대비 효과 낮음)",
+    "decision_message_ids": [
+      "push-t1-4"
+    ],
+    "message_ids": [
+      "push-t1-1",
+      "push-t1-2",
+      "push-t1-3",
+      "push-t1-4"
+    ]
+  },
+  {
+    "id": "subscription",
+    "question": "정기배송은 왜 출시 안 했어?",
+    "conclusion": "결제 재시도 정책이 정리될 때까지 보류, 최종 결정은 나지 않음",
+    "rejected": "",
+    "decision_message_ids": [
+      "subscription-t1-4"
+    ],
+    "message_ids": [
+      "subscription-t1-1",
+      "subscription-t1-2",
+      "subscription-t1-3",
+      "subscription-t1-4"
+    ]
+  }
+]

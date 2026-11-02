@@ -58,6 +58,11 @@ uv sync
 cp .env.example .env   # .env 파일에 ANTHROPIC_API_KEY 입력
 ```
 
+# 3. 합성 메일 생성 · 테스트
+uv run python scripts/make_synthetic_mails.py
+uv run pytest tests -q
+```
+
 > 실행 명령은 S1 단계가 진행되면서 추가됩니다.
 
 ## 데이터 원칙

@@ -1,0 +1,74 @@
+[
+  {
+    "key": "minsu",
+    "name": "김민수",
+    "dept": "커머스사업팀",
+    "title": "팀장"
+  },
+  {
+    "key": "jieun",
+    "name": "이지은",
+    "dept": "운영팀",
+    "title": "매니저"
+  },
+  {
+    "key": "seojun",
+    "name": "박서준",
+    "dept": "기획팀",
+    "title": "매니저"
+  },
+  {
+    "key": "doyun",
+    "name": "최도윤",
+    "dept": "개발팀",
+    "title": "선임"
+  },
+  {
+    "key": "harin",
+    "name": "정하린",
+    "dept": "마케팅팀",
+    "title": "매니저"
+  },
+  {
+    "key": "taeo",
+    "name": "강태오",
+    "dept": "재무팀",
+    "title": "매니저"
+  },
+  {
+    "key": "seoa",
+    "name": "윤서아",
+    "dept": "CS팀",
+    "title": "매니저"
+  },
+  {
+    "key": "jiho",
+    "name": "한지호",
+    "dept": "개발팀",
+    "title": "팀장"
+  },
+  {
+    "key": "yuna",
+    "name": "오유나",
+    "dept": "기획팀",
+    "title": "선임"
+  },
+  {
+    "key": "jaehyun",
+    "name": "임재현",
+    "dept": "법무팀",
+    "title": "매니저"
+  },
+  {
+    "key": "minji",
+    "name": "송민지",
+    "dept": "디자인팀",
+    "title": "선임"
+  },
+  {
+    "key": "junyoung",
+    "name": "배준영",
+    "dept": "영업팀",
+    "title": "매니저"
+  }
+]
