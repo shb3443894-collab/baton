@@ -1,0 +1,21 @@
+[project]
+name = "baton"
+version = "0.1.0"
+description = "Baton — 인수인계 받은 사람에게 메일 속 결정의 이유를 출처와 함께 알려주는 사내 AI 에이전트"
+authors = [
+    { name = "shb3443894-collab", email = "283391936+shb3443894-collab@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.3.0",
+    "chainlit>=2.12.0",
+    "chromadb>=1.5.9",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+baton = "baton:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"

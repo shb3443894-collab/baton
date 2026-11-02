@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 비밀값 — 절대 커밋 금지
+.env
+
+# 실제 메일 데이터 — 절대 커밋 금지 (합성 데이터만 공개)
+data/real/*
+!data/real/.gitkeep
+
+# 로컬 색인 · 실행 산출물
+chroma_db/
+.chainlit/
+.files/
+
+# 로컬 도구 산출물
+.omc/
