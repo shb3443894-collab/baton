@@ -56,7 +56,6 @@ uv sync
 
 # 2. API 키 설정
 cp .env.example .env   # .env 파일에 ANTHROPIC_API_KEY 입력
-```
 
 # 3. 합성 메일 생성 · 테스트
 uv run python scripts/make_synthetic_mails.py
