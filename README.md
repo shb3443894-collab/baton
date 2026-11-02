@@ -1,7 +1,7 @@
 # Baton (바톤)
 
 > **전임자는 떠나도, 결정의 이유는 남는다.**
-> 업무를 인수인계받은 사람이 "이거 왜 이렇게 됐어?"라고 물으면, 메일에서 결정 흐름을 찾아 원본 출처와 함께 보여주는 사내 AI 에이전트
+> 업무를 인수인계받은 사람이 "이거 왜 이렇게 됐어?"라고 물으면, 메일에서 결정 흐름을 찾아 원본 출처와 함께 보여주는 웹 서비스
 
 ![status](https://img.shields.io/badge/status-S1%20개발%20중-orange)
 
@@ -26,10 +26,10 @@
 
 | 단계 | 내용 | 상태 |
 |---|---|---|
-| S1 | 합성 메일 → 정제 → 가림 → 검색 → 답변 → 위젯 화면 | 🚧 진행 중 |
+| S1 | 합성 메일 → 정제 → 가림 → 검색 → 답변 → 웹 화면 | 🚧 진행 중 |
 | S2 | 결정 이벤트 추출 + 구조화 답변 + 출처 검증 | ⏳ |
 | S3 | 하이브리드 검색 + 리랭커 + 평가셋 20문항 측정 | ⏳ |
-| S4~ | Gmail 연결 · 권한 · 사내 파일럿 (회사 승인 필요) | ⏳ |
+| S4~ | 웹페이지에서 Google 로그인 · Gmail 연결 · 권한 | ⏳ |
 
 ## 폴더 구조
 
@@ -41,7 +41,7 @@ src/baton/
   extract/  ⑤ 결정 이벤트 추출 (S2)
   index/    ⑥ 검색 색인
   answer/   ⑦~⑪ 검색 · 답변 · 출처 검증
-app/        위젯 화면 (Chainlit)
+app/        웹 화면 (FastAPI + HTML)
 eval/       평가셋 · 채점
 data/synthetic/  합성 메일 (공개)
 data/real/       실제 메일 (git에 올리지 않음)
@@ -71,4 +71,4 @@ uv run pytest tests -q
 
 ## 기술 스택
 
-Python 3.12 · uv · Anthropic Claude API · ChromaDB · Chainlit · (예정) LangChain · LangSmith · PostgreSQL + pgvector
+Python 3.12 · uv · Anthropic Claude API · ChromaDB · FastAPI · (예정) LangChain · LangSmith · PostgreSQL + pgvector
